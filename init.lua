@@ -876,14 +876,6 @@ require('lazy').setup({
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
   },
-  {
-    'nvim-lualine/lualine.nvim',
-    opts = {
-      options = {
-        theme = 'iceberg_dark',
-      },
-    },
-  },
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',

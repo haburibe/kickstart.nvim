@@ -4,6 +4,14 @@
 -- See the kickstart.nvim README for more information
 return {
   {
+    'nvim-lualine/lualine.nvim',
+    opts = {
+      options = {
+        theme = 'iceberg_dark',
+      },
+    },
+  },
+  {
     'cocopon/iceberg.vim',
     priority = 1000,
     init = function()
