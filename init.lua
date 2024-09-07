@@ -193,6 +193,18 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 -- vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 -- vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
+-- Keybinds to switch tabs
+vim.keymap.set('n', '<leader>1', '1gt', { desc = 'Move focus to 1st tab' })
+vim.keymap.set('n', '<leader>2', '2gt', { desc = 'Move focus to 2nd tab' })
+vim.keymap.set('n', '<leader>3', '3gt', { desc = 'Move focus to 3rd tab' })
+vim.keymap.set('n', '<leader>4', '4gt', { desc = 'Move focus to 4th tab' })
+vim.keymap.set('n', '<leader>5', '5gt', { desc = 'Move focus to 5th tab' })
+vim.keymap.set('n', '<leader>6', '6gt', { desc = 'Move focus to 6th tab' })
+vim.keymap.set('n', '<leader>7', '7gt', { desc = 'Move focus to 7th tab' })
+vim.keymap.set('n', '<leader>8', '8gt', { desc = 'Move focus to 8th tab' })
+vim.keymap.set('n', '<leader>9', '9gt', { desc = 'Move focus to 9th tab' })
+vim.keymap.set('n', '<leader>0', 'tablast', { desc = 'Move focus to last tab' })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
