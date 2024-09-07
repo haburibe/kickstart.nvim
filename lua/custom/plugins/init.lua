@@ -4,6 +4,13 @@
 -- See the kickstart.nvim README for more information
 return {
   {
+    'crispgm/nvim-tabline',
+    dependencies = {
+      'nvim-tree/nvim-web-devicons',
+    },
+    opts = { show_icon = true },
+  },
+  {
     'kylechui/nvim-surround',
     version = '*', -- Use for stability; omit to use `main` branch for the latest features
     event = 'VeryLazy',
