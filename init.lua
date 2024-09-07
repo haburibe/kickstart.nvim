@@ -203,7 +203,7 @@ vim.keymap.set('n', '<leader>6', '6gt', { desc = 'Move focus to 6th tab' })
 vim.keymap.set('n', '<leader>7', '7gt', { desc = 'Move focus to 7th tab' })
 vim.keymap.set('n', '<leader>8', '8gt', { desc = 'Move focus to 8th tab' })
 vim.keymap.set('n', '<leader>9', '9gt', { desc = 'Move focus to 9th tab' })
-vim.keymap.set('n', '<leader>0', 'tablast', { desc = 'Move focus to last tab' })
+vim.keymap.set('n', '<leader>0', ':tablast<CR>', { desc = 'Move focus to last tab' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
