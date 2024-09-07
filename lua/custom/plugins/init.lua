@@ -4,6 +4,11 @@
 -- See the kickstart.nvim README for more information
 return {
   {
+    'windwp/nvim-autopairs',
+    event = 'InsertEnter',
+    opts = {},
+  },
+  {
     'lukas-reineke/indent-blankline.nvim',
     main = 'ibl',
     ---@module "ibl"
