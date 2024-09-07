@@ -205,6 +205,9 @@ vim.keymap.set('n', '<leader>8', '8gt', { desc = 'Move focus to 8th tab' })
 vim.keymap.set('n', '<leader>9', '9gt', { desc = 'Move focus to 9th tab' })
 vim.keymap.set('n', '<leader>0', ':tablast<CR>', { desc = 'Move focus to last tab' })
 
+-- Keybind to toggle file tree
+vim.keymap.set('n', '\\', ':NvimTreeToggle<CR>', { desc = 'Toggle file tree', silent = true })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 

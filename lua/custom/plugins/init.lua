@@ -4,6 +4,13 @@
 -- See the kickstart.nvim README for more information
 return {
   {
+    'nvim-tree/nvim-tree.lua',
+    dependencies = {
+      'nvim-tree/nvim-web-devicons',
+    },
+    opts = {},
+  },
+  {
     'crispgm/nvim-tabline',
     dependencies = {
       'nvim-tree/nvim-web-devicons',
